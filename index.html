@@ -3,12 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <title>Heads on fire</title>
+  <link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+  <link href='bootstrap.css' rel='stylesheet' type='text/css'>
+  <style>
+    @keyframes coloranimation {
+      14%   {background-color: red;}
+      28%  {background-color: #F00;}
+      42%  {background-color: #FF00BC;}
+      56% {background-color: #3300FF;}
+      70% {background-color: #00FFE7;}
+      84% {background-color: #62FF00;}
+      100% {background-color: #FFF700;}
+    }
+    body {
+      font-family: "Permanent Marker", Arial;
+      background:url(Crab_Nebula.jpg);
+      background-size:cover;
+      color:white;
+    }
+    .logo {width:400px;margin: 54px auto 84px;}
+    .logo img {
+      width: 400px;
+    }
+    h1{text-align:Center;}
+  </style>
 </head>
 <body>
-<h1>Heads on fire! Music from Austria</h1>
-<h2>version: 1.1</h2>
-<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/952144&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/220978040&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/1891262&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+  <div id="page" class="container">
+    <h1>Heads on fire!</h1>
+    <div class="logo">
+      <img src="headsonfire.png" alt="">
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/952144&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+      </div>
+      <div class="col-md-4">
+        <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/220978040&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+      </div>
+      <div class="col-md-4">
+        <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/169985688&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+      </div>
+    </div>
+    <h5>version: 1.2</h5>
+  </div>
 </body>
 </html>
